@@ -1,5 +1,5 @@
 [project]
-name = "Email Template"
+name = "EmailTemplate"
 version = "0.0.1"
 authors = [
   { name="David Billingsley", email="daveandtaybillingsley@gmail.com" },
