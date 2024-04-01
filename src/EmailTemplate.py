@@ -4,14 +4,17 @@
 ## Email Module
 ##################################################
 ## Author: David Billingsley
-## Copyright: Copyright 2023
+## Copyright: Copyright 2024
 ## License: Unlicensed
-## Version: 0.0.1
+## Version: 0.0.3
 ## Maintainer: David Billingsley
 ## Email: daveandtaybillingsley@gmail.com
 ## Status: Production
 ##################################################
 ## Uses: Sends emails based on the functions below
+##################################################
+## Revision Date: 4/1/2024
+## Revision: Added comments and docstrings
 ##################################################
 
 import ssl
@@ -24,6 +27,9 @@ import smtplib
 
 
 def emailtablenofile(host, sender, password, port, receiver, title, text, html):
+    """
+    Generates an email with a html pass threw typically a table
+    """
     msg = MIMEMultipart('alternative', None)
 
     msg['Subject'] = title
@@ -44,6 +50,9 @@ def emailtablenofile(host, sender, password, port, receiver, title, text, html):
 
 
 def emailtextnofile(host, sender, password, port, receiver, title, text):
+    """
+        Generates an email with a text in the body only.
+        """
     msg = EmailMessage()
 
     msg['Subject'] = {title}
@@ -64,6 +73,9 @@ def emailtextnofile(host, sender, password, port, receiver, title, text):
 
 
 def emailwithfile(host, sender, password, port, receiver, title, text, filepath):
+    """
+        Generates an email with a file attached and text in the body
+        """
     subject = title
     body = f"{text}"
     sender_email = sender
