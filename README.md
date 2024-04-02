@@ -2,6 +2,8 @@
     This is to allow beginners to easily send emails.  This project contains some
     basic templates.
 
+    To install this package, please use pip install EasyEmailTemplate
+
 ## emailtablenofile
     This is used to send a HTML file created by pandas in the email by passing
     the html table direclty to the template.
