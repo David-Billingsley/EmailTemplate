@@ -62,9 +62,6 @@
 """
 result = df.to_html(index=False, render_links=True, table_id="mystyle", escape=False)
 ```
-Example of table output:
-
-![TableExample.png](TableExample.png)
 
 ## emailtextnofile
     This is used to send emails with text only.

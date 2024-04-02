@@ -1,10 +1,10 @@
 [project]
-name = "EmailTemplate"
+name = "EasyEmailTemplate"
 version = "0.0.3"
 authors = [
   { name="David Billingsley", email="daveandtaybillingsley@gmail.com" },
 ]
-description = "Email sending tempalte for begginers to send emails"
+description = "Email sending tempalte for beginers to send emails"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
