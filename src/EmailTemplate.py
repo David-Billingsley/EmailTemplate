@@ -5,7 +5,7 @@
 ##################################################
 ## Author: David Billingsley
 ## Copyright: Copyright 2024
-## License: Unlicensed
+## License: MIT
 ## Version: 0.0.3
 ## Maintainer: David Billingsley
 ## Email: daveandtaybillingsley@gmail.com
